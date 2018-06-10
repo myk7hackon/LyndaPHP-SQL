@@ -7,12 +7,6 @@ setcookie($name,$value,$expire);
 <!DOCTYPE html>
 <head><title>"Cookies Basic"</title></head>
 <body>
-<h1>Contents of Cookies</h1>
-<pre>
-<?php
-print_r($_COOKIE);
-setcookie($name,null);
-?>
-</pre>
+
 </body>
 </html>
